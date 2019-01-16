@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "We motivate you",
+    "description": "The most popular movies and TV shows in your   default tab. Includes ratings, summaries and the ability to watch trailers.",
+    "version": "1",
+    "author": "meOw",
+   "browser_action": {
+      "default_icon": "tab-icon.jpg",
+      "default_title": "Have a good day"
+    },
+   "chrome_url_overrides" : {
+     "newtab": "newtab.html"
+   },
+   "background":{
+       "scripts":["run.js"]
+   }
+
+   ,
+    "permissions": ["activeTab"]
+}
